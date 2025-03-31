@@ -1,0 +1,103 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+#page_container {
+    width: 1700px;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 0px, 0px, 48px, 16px rgba(0, 0, 0, 0.175);
+}
+
+header {
+    background-color: #000000;
+    padding-bottom: 149px;
+}
+
+#logo {
+    width: 200px;
+    float: left;
+    padding: 15px 0 20px 40px;
+}
+
+#logo img {
+    width: 110px;
+}
+
+nav {
+    clear: both;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(5, 5, 5);
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hwb(180 7% 13%);
+    font-size: 18px;
+}
+
+nav li a:hover {
+    background-color: rgb(236, 232, 233);
+}
+
+footer{
+    background-color: rgba(3, 86, 66, 0.25);
+    clear: both;
+    overflow: hidden;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#links {
+    width: 450px;
+    float: left;
+    padding-left: 100px;
+}
+
+#links h4 {
+    padding-left: 40px;
+}
+
+#menu h4 {
+    padding-left: 39px;
+}
+
+#menu {
+    width: 450px;
+    float: left;
+    padding-left: 100px;
+}
+
+#socials {
+    float: left;
+    width: 450px;
+    padding-left: 100px;
+}
+
+#socials ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#socials li {
+    padding: 0 12px 0 0;
+    display: inline;
+}
