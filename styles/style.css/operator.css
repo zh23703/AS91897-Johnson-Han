@@ -45,3 +45,64 @@ nav ul li a {
 nav li a:hover {
     background-color: rgb(236, 232, 233);
 }
+
+table, th, td {
+    border: 1px solid black;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: rgb(217, 222, 223);
+}
+
+footer{
+    background-color: rgba(3, 86, 66, 0.25);
+    clear: both;
+    overflow: hidden;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {  
+    text-decoration: none;
+    color: rgb(198, 12, 48);
+}
+
+#links {
+    width: 450px;
+    float: left;
+    padding-left: 100px;
+}
+
+#links h4 {
+    padding-left: 40px;
+}
+
+#menu h4 {
+    padding-left: 39px;
+}
+
+#menu {
+    width: 450px;
+    float: left;
+    padding-left: 100px;
+}
+
+#socials {
+    float: left;
+    width: 450px;
+    padding-left: 100px;
+}
+
+#socials ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#socials li {
+    padding: 0 12px 0 0;
+    display: inline;
+}
