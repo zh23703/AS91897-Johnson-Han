@@ -1,108 +1,92 @@
 body {
     font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #page_container {
     width: 1700px;
     margin: 0 auto;
     border: 1px solid black;
-    box-shadow: 0px, 0px, 48px, 16px rgba(0, 0, 0, 0.175);
+    box-shadow: 0px 0px 48px 16px rgba(0, 0, 0, 0.175);
+    background-color: white
 }
 
-header {
+.header-container {
+    max-width: 1700px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
     padding: 10px 20px;
+    background-color: black;
 }
 
 .logo img {
-    height: 50px;
-}
-
-.main img{
-    height: 110px;
-    width: 110px;
+    height: 60px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
+    color: #00BFFF;
     text-decoration: none;
-    color: hsl(180, 100%, 50%);
     font-size: 18px;
 }
 
-nav li a:hover {
-    background-color: rgb(236, 232, 233);
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+table{
+    width: 1650px;
+    border-collapse: collapse;
+    margin: 40px auto;
 }
 
 table, th, td {
     border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
     text-align: left;
-    border-collapse: collapse;
+    vertical-align: middle;
 }
 
 tr:hover {
     background-color: rgb(217, 222, 223);
 }
 
-footer{
-    background-color: rgba(3, 86, 66, 0.25);
-    clear: both;
-    overflow: hidden;
+td img {
+    width: 100px;
+    border-radius: 10px;
 }
 
-footer li {
-    list-style-type: none;
+
+footer {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+    padding: 20px 0;
 }
 
-footer a {  
+footer a {
+    color: #00BFFF;
     text-decoration: none;
-    color: rgb(198, 12, 48);
 }
 
-#links {
-    width: 450px;
-    float: left;
-    padding-left: 100px;
-}
-
-#links h4 {
-    padding-left: 40px;
-}
-
-#menu h4 {
-    padding-left: 39px;
-}
-
-#menu {
-    width: 450px;
-    float: left;
-    padding-left: 100px;
-}
-
-#socials {
-    float: left;
-    width: 450px;
-    padding-left: 100px;
-}
-
-#socials ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#socials li {
-    padding: 0 12px 0 0;
-    display: inline;
+footer a:hover {
+    text-decoration: underline;
 }

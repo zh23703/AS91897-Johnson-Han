@@ -10,6 +10,7 @@ body {
     margin: 0 auto;
     border: 1px solid black;
     box-shadow: 0px 0px 48px 16px rgba(0, 0, 0, 0.175);
+    background-color: white
 }
 
 .header-container {
@@ -47,45 +48,31 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+table {
+    width: 1650px;
+    border-collapse: collapse;
+    margin: 40px auto;
+    background-color: white;
 }
 
-.main img {
-    width: 1200px;
-    height: auto;
-    border-radius: 10px;
+table, th, td {
+    border: 1px solid black;
 }
 
-.button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    gap: 400px;
+th, td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
 }
 
-.button-item {
-    text-align: center;
+tr:hover {
+    background-color: rgb(217, 222, 223);
 }
 
-.button-item img {
-    width: 150px;
-    height: 150px;
-}
-
-.button-item p a {
-    color: #00BFFF;
-    text-decoration: none;
-    font-size: 20px;
+td img {
+    width: 600px;
     display: block;
-    margin-top: 10px;
-}
-
-.button-item p a:hover {
-    text-decoration: underline;
+    margin: 0 auto;
 }
 
 footer {
